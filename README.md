@@ -1,13 +1,15 @@
 # 🔐 Authentication Backend System
 
-## 🚀 Features
-- User register & login
-- JWT authentication
-- Password hashing (bcrypt)
-- OTP verification
-- Session based login/logout
-- Logout from all devices
-- Refresh tokens and Access Tokens
+## Key Features 
+🔐 Secure user registration with hashed passwords
+📧 OTP-based email verification system
+🔑 JWT authentication (Access + Refresh tokens)
+🔄 Refresh token rotation mechanism
+🍪 HTTP-only secure cookies for token storage
+📱 Multi-device session management
+🌍 Session tracking (IP + user-agent)
+🚪 Logout (single session + all devices)
+🛡 Token hashing for enhanced security
 
 ## 🛠 Tech Stack
 - Node.js / Express
